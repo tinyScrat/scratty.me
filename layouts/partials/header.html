@@ -1,0 +1,14 @@
+<nav>
+  <a href="/">Home</a>
+  <a href="/posts">Posts</a>
+  <a href="/about">About</a>
+</nav>
+
+<h1>
+  {{ block "title" . }}
+    {{ .Title }}
+  {{ end }}
+</h1>
+{{ with .Description }}
+  <p>{{ . }}</p>
+{{ end }}

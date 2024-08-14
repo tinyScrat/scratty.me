@@ -1,0 +1,12 @@
+# Sublime Text
+*.sublime-workspace
+
+# elm-package generated files
+elm-stuff
+# elm-repl generated files
+repl-temp-*
+
+# Hugo stuff
+*.lock
+public/
+resources/

@@ -1,0 +1,9 @@
+baseURL = 'https://scratty.me/'
+languageCode = 'en-us'
+title = 'tinyScrat'
+copyright = "© 2024 tinyScrat"
+
+[params]
+  [params.author]
+    name = 'tinyScrat'
+    email = 'tinyScrat@scratty.me'

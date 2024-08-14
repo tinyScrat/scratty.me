@@ -1,0 +1,5 @@
+- id: 404title
+  translation: "HTTP-404 Error"
+
+- id: 404text
+  translation: "There is no content here."

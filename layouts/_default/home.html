@@ -1,0 +1,10 @@
+{{ define "main" }}
+  <div class="homepage-content">
+    {{ .Content }}
+  </div>
+  <ul>
+    {{ range where site.RegularPages "Section" "posts" }}
+      {{ .Render "card" }}
+    {{ end }}
+  </ul>
+{{ end }}
