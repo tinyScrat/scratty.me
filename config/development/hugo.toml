@@ -1,1 +1,1 @@
-baseURL = 'https://scratty.me/'
+publishDir = 'www'
