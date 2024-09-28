@@ -10,3 +10,5 @@ repl-temp-*
 *.lock
 public/
 resources/
+
+**/.DS_Store
