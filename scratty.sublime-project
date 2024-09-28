@@ -6,7 +6,8 @@
       "file_exclude_patterns": [
         "*.sublime-project",
         "*.lock",
-        "*.min.css"
+        "*.min.css",
+        "*.min.js"
       ],
       "folder_exclude_patterns": [
         "public",
