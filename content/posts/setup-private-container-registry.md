@@ -28,9 +28,19 @@ as of now the latest one is [v2.8.3][1], then compute the sha256 hash to if it m
 the corresponding [hash][2]. Navigate to the directory containing the downloaded file,
 then run the following corresponding command based on the OS of your machine.
 
-Windows: `CertUtil -hashfile registry_2.8.3_linux_amd64.tar.gz SHA256`
-Linux: `sha256sum registry_2.8.3_linux_amd64.tar.gz`
-MacOS: `shasum -a 256 registry_2.8.3_linux_amd64.tar.gz`
+Windows:
+```Batch
+CertUtil -hashfile registry_2.8.3_linux_amd64.tar.gz SHA256
+```
+Linux:
+```Shell
+sha256sum registry_2.8.3_linux_amd64.tar.gz
+```
+
+MacOS:
+```Shell
+shasum -a 256 registry_2.8.3_linux_amd64.tar.gz
+```
 
 ## Upload the tar.gz file to remote server.
 
