@@ -45,6 +45,7 @@ Hypervisor also known as virtual machine monitor (VMM) or virtualizer.
 ## Type 1/2
 
 |  Name            | License     |
+| ---------------- | ----------- |
 | [KVM][13]        | GPLv2       |
 | [bhyve][14]      | BSD         |
 
