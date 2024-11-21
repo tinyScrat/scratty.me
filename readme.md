@@ -10,3 +10,11 @@ Personal blogging site.
 **highlight.js** supported language can be found [here][1]
 
 [1]: <https://unpkg.com/browse/@highlightjs/cdn-assets@11.10.0/languages/> "highlight.js supported languages"
+
+## Common Hugo Commands
+
+- Create a new file under a section/directory.
+
+    ```Shell
+    hugo new content snippets/access-database.md
+    ```
